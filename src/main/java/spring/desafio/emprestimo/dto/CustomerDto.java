@@ -14,6 +14,7 @@ public class CustomerDto {
 	private String name;
 	private int age;
 	private String location;
+	private String cpf;
 	private double income;
 
 }

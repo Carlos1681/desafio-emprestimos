@@ -16,6 +16,7 @@ public class LoanService {
 		String name = customerDto.getName();
 		int age = customerDto.getAge();
 		String location = customerDto.getLocation();
+		String cpf = customerDto.getCpf();
 		double income = customerDto.getIncome();
 		
 		List<LoanDto> loans = new ArrayList<LoanDto>();
